@@ -9,12 +9,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="duboo" />
         <module name="dubbo_service" />
+        <module name="dubbo_service3" />
+        <module name="dubbo_service2" />
         <module name="dubbo_consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dubbo_consumer" target="1.8" />
       <module name="dubbo_service" target="1.8" />
+      <module name="dubbo_service2" target="1.8" />
+      <module name="dubbo_service3" target="1.8" />
       <module name="dubbo_web" target="1.8" />
       <module name="duboo" target="1.8" />
     </bytecodeTargetLevel>
@@ -23,6 +27,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="dubbo_consumer" options="-parameters" />
       <module name="dubbo_service" options="-parameters" />
+      <module name="dubbo_service2" options="-parameters" />
+      <module name="dubbo_service3" options="-parameters" />
       <module name="dubbo_web" options="-parameters" />
       <module name="duboo" options="-parameters" />
     </option>
