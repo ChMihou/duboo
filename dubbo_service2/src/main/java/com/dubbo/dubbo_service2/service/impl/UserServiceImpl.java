@@ -4,7 +4,7 @@ import com.alibaba.dubbo.config.annotation.Service;
 import com.dubbo.dubbo_consumer.dubbo_consumer.service.UserService;
 import org.springframework.stereotype.Component;
 
-@Service(interfaceClass = UserService.class)
+@Service(interfaceClass = UserService.class,weight = 200)
 @Component
 public class UserServiceImpl implements UserService {
     @Override

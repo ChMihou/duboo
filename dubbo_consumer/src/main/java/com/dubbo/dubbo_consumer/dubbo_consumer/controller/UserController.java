@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class UserController {
-    @Reference
+    //loadbalance 负载均衡方式 roundrobin:轮询  random:权重随机
+    @Reference(loadbalance = "random")
     UserService userService;
 
     @GetMapping("hello")
