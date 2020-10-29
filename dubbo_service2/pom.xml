@@ -70,7 +70,6 @@
             <groupId>com.dubbo_common</groupId>
             <artifactId>dubbo_common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 
