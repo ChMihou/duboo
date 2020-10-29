@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubbo_api/dubbo_api.iml" filepath="$PROJECT_DIR$/dubbo_api/dubbo_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo_consumer/dubbo_consumer.iml" filepath="$PROJECT_DIR$/dubbo_consumer/dubbo_consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo_service/dubbo_service.iml" filepath="$PROJECT_DIR$/dubbo_service/dubbo_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo_service2/dubbo_service2.iml" filepath="$PROJECT_DIR$/dubbo_service2/dubbo_service2.iml" />
