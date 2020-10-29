@@ -1,7 +1,7 @@
 package com.dubbo.dubbo_service3.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.dubbo.dubbo_consumer.dubbo_consumer.service.UserService;
+import com.dubbo_common.dubbo_common.service.UserService;
 import org.springframework.stereotype.Component;
 
 @Service(interfaceClass = UserService.class,weight = 300)

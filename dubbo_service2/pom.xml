@@ -67,8 +67,8 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dubbo.dubbo_consumer</groupId>
-            <artifactId>dubbo_consumer</artifactId>
+            <groupId>com.dubbo_common</groupId>
+            <artifactId>dubbo_common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

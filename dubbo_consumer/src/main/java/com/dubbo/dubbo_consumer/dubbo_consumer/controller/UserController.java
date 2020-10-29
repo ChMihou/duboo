@@ -1,7 +1,7 @@
 package com.dubbo.dubbo_consumer.dubbo_consumer.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.dubbo.dubbo_consumer.dubbo_consumer.service.UserService;
+import com.dubbo_common.dubbo_common.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

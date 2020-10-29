@@ -1,4 +1,4 @@
-package com.dubbo.dubbo_service.dao;
+package com.dubbo_common.dubbo_common.pojo;
 
 import java.io.Serializable;
 
